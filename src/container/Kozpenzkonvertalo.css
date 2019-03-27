@@ -1,0 +1,34 @@
+.Kozpenzkonvertalo {
+    /*color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.Fixdiv {
+    width: 250px;
+    height: 300px;
+    background-color: gray;
+    margin: 1rem;
+    text-align: center;
+}
+
+.Fixdiv2 {
+    width: 250px;
+    height: 300px;
+    background-color: gold;
+    margin: 1rem;
+}
+
+.NumberInput {
+margin-top: 1em
+}
+
+@media only screen and (min-width: 50rem) {
+    .Kozpenzkonvertalo {          
+        /*color: green;*/
+        max-width: 40rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
